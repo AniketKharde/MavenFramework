@@ -36,7 +36,7 @@ public class PIMTest2 extends CommonTest2 {
 		pimpage.setEmployeeID("0046");
 		pimpage.clickSearchButton();
 		//String verifyEmpID = pimpage.getEmpListFromSearchResults("0046");
-		Assert.assertEquals(false,false);
+		Assert.assertEquals(true,true);
 		driver.navigate().refresh();
 	}
 	
